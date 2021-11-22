@@ -2,9 +2,9 @@
   "name": "personal-web-site",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.php",
   "scripts": {
-    "start": "node index.html",
+    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
