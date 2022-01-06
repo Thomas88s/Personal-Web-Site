@@ -4,7 +4,7 @@
     "description": "Simple json-base database to deploy to Heroku",
     "main": "index.html",
     "scripts": {
-      "start": "start",
+      "start": "serve",
       "dev": "nodemon server.js"
     },
     "keywords": [
