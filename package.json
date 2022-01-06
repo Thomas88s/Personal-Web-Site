@@ -2,9 +2,9 @@
     "name": "json-server-heroku",
     "version": "1.0.0",
     "description": "Simple json-base database to deploy to Heroku",
-    "main": "server.js",
+    "main": "index.html",
     "scripts": {
-      "start": "node server.js",
+      "start": "start",
       "dev": "nodemon server.js"
     },
     "keywords": [
