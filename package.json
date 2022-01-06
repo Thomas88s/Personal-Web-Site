@@ -1,22 +1,19 @@
 {
-  "name": "personal-web-site",
+  "name": "json-server-heroku",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple json-base database to deploy to Heroku",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Thomas88s/Personal-Web-Site.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Thomas88s/Personal-Web-Site/issues"
-  },
-  "homepage": "https://github.com/Thomas88s/Personal-Web-Site#readme"
-
+  "keywords": [
+    "json-server,heroku, node, REST API"
+  ],
+  "author": "Thomas Witherow",
+  "license": "Nss",
+  "dependencies": {
+    "json-server": "^0.12.2"
+  }
 }
+
